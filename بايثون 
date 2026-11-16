@@ -1,0 +1,623 @@
+= #      class Employee:
+  #  def __init__(self,name,id=None,department=None):
+    #    self.name=name
+   #     self.id=id
+ #       self.department=department
+
+    #def display_details(self):
+    #    print(self.name)
+     #   print(self.id)
+   #     print(self.department)
+
+#emp1=Employee("Farouk")
+#emp2=Employee("Malak","100")
+#emp3=Employee("osama","200","IT")
+#emp1.display_details()
+#emp2.display_details()
+#emp3.display_details()
+
+
+#class Book:
+ #   def __init__(self, title, author):
+   #     self.title=title
+     #   self.author=author
+    #    self.available=True
+  #      
+   # def borrow_book(self):
+   #     if self.available==True:
+    #        self.available=False
+     #       print("Successfully borrowed")
+   #     else:
+     #       print("Cannot be borrowed")
+            
+  #  def return_book(self):
+  #      self.available=True
+   #     print("Successfully returned")
+        
+#my_book=Book("Python 101","Farouk")
+#my_book.borrow_book()
+#my_book.borrow_book()
+
+
+#i=1
+#while i<=10:
+ #   print(i)
+  #   i+=1
+  
+#num=int(input("Enter a number"))
+#total=0
+#for i in range(1,num+1):
+    #total=total+i
+#print(total)
+
+ 
+ 
+ 
+ 
+#num=int(input("Enter a number"))
+#i=1
+#total=0
+#while i<=num:
+ #   total=total+i
+   # i=i+1
+#print(total)  
+
+
+#i=1
+#while i<10:
+   # x=1
+   # while x<10:
+   #   print(i,x)
+    #  x=x+1
+   # i=i+1
+ 
+
+
+
+
+ 
+
+
+#i=1
+#while i <=12:
+ #   j=1
+ #   while j <=12:
+ #       print(f"{i}*{j}={i*j}")
+#        j +=1
+#    i +=1
+
+
+
+
+
+#while True:
+   # nume=input("Enter your name or exit")
+   # if nume =="exit":
+    #    break
+ #   print(f"welcome {nume}")    
+ 
+ 
+ 
+    
+
+
+#print("welcome to Techland call center")
+#x=int(input("Choose a service from (1-4)"))
+#if x==1:
+ #   print("We will direct you to the account services department")
+#elif x==2:
+#    print("We will direct you to the technical support department")
+#elif x==3:
+  #  print("We will direct you to the complaints department")
+#else:
+  # print("We will direct you to the other services department"
+  
+
+
+    
+#print("welcome to Techland call conter")
+#x=int(input("Choose a service from (1-4)"))
+#u={1:"We will direct you to the account services department."}
+#q={2:"We will direct you to the technical support department."}
+#e={3:"We will direct you to the complaints department."}
+#i={4:"We will direct you to the other services department"}
+
+
+
+
+
+
+
+
+
+#print("Hello, welcome to our service")
+#x=int(input("Choose a service from (1-4):"))
+#services={1:"We will direct you to the account services department",
+      #    2:"We will direct you to the technical support department",
+         # 3:"We will direct you to the complaints department",
+      #    4:"We will direct you to the other services department"}
+#print(services[x])
+
+
+
+
+
+
+
+#x={"nume1":4,"nume2":7}
+#x["nume1"]=6
+#print(x)
+
+
+
+
+
+#n=int(input("Enter the numbers:"))
+#d=dict()
+#for i in range(1,n+1):
+  #  d[i]=i*i
+#print(d)   
+
+
+
+
+ 
+ 
+#values=input("enter the number")
+#l=values.split(",")
+#t=tuple(l)
+#print(l)
+#print(t)
+
+
+
+
+
+
+
+
+
+
+
+
+
+#class MyClass:
+ #   def __init__(self):
+  #      self.s=""
+  #  def getString(self):
+   #     self.s=input("Enter string")
+  #  def printString(self):
+   #     print(self.s.upper())
+#x=MyClass()
+#x.getString()
+#x.printString()
+
+
+
+
+
+
+
+#import random
+#num=random.randint(1,50)
+#for i in range(5):
+ #   x=int(input("Guess the number"))
+ #   if x ==num:
+  #      print("Congratulations You guessed it")
+ #       break
+ #   elif x > num:
+  #      print("Too high")
+  #  else:
+ #       print("Too low")
+
+
+
+
+
+
+
+#defx(num1,num2,num3):
+ #   if num1 > num2 and num1 > num3:
+ #       print(num1)
+ #   elif num2 > num1 and num2 > num3:
+ #       print(num2)
+ #   else:
+   #     print(num3)
+#num1=int(input("Enter num1"))
+#num2=int(input("Enter num2"))
+#num3=int(input("Enter num3"))     
+#print(x(num1,num2,num3))
+
+
+
+
+
+ 
+#x=input("Enter words")
+#y=x.split(",")
+#y.sort()
+#print(",".join(y))
+
+
+
+
+#s=input("Enter a sentence")
+#letters=0
+#digits=0
+#for i in s:
+  #  if i.isalpha():
+  #      letters=letters +1
+   # elif i.isdigit():
+     #   digits=digits +1
+#print("LETTERS",letters)
+#print("DIGITS", digits)
+
+
+
+
+
+#x=int(input("Enter first number"))
+#y=int(input("Enter second number"))
+#print(x+y)
+#print(x-y)
+#print(x*y)
+#print(x/y)
+
+
+
+#fruits=["apple","banana","orange","mango"]
+#fruits.append("grape")
+#fruits.pop(1)
+#fruits.insert(2,"strawberry")
+#print(fruits)
+
+
+
+
+
+
+
+
+#my_dict={"name":"Farouk","age":18,"country":"Egypt"}
+#my_dict["city"]="Cairo"
+#print(my_dict["name"])
+#print("my_dict")
+
+
+
+
+
+#password=input("Enter password")
+#if len(password) < 6:
+#    print("Weak Password")
+#elif len(password) > 8 and password.isalnum():
+#    print("Strong Password")
+#else:
+#    print("Moderate 
+
+
+
+
+
+
+
+
+#class Car:
+  #  def __init__(self,brand,model,speed):
+   #     self.brand=brand
+  #      self.model=model
+  #      self.speed=speed
+ #   def increase_speed(self,amount):
+  #      self.speed +=amount
+  #  def display_info(self):
+  #      print("Brand",self.brand)
+ #       print("Model",self.model)
+#        print("Speed",self.speed)
+#car1=Car("BMW","M5",100)
+#car2=Car("Toyota","2027",80)
+#car1.increase_speed(20)
+#car2.increase_speed(30)
+#car1.display_info()
+#car2.display_info()
+
+
+
+
+
+
+#class Student:
+  #  def __init__(self,name,grade,school):
+  #      self.name=name
+   #     self.grade=grade
+   #     self.school=school
+  #  def update_grade(self,new_grade):
+    #    self.grade=new_grade
+   # def introduce(self):
+   #     print("Hi,I'm"+self.name+"from"+self.school)
+#s1=Student("Farouk",23, "My School")
+#s2=Student("Ahmed",12, "Future School")
+#s1.introduce()
+#s2.introduce()
+#s1.update_grade("22")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#class Movie:
+   # def __init__(self, title, rating):
+    #    self.title = title
+    #    self.__rating = rating
+    #def get_rating(self):
+      #  return self.__rating
+   # def set_rating(self, rating):
+    #    if rating >= 1 and rating <= 5:
+      #      self.__rating = rating
+    #    else:
+      #      print("bad")
+#movie = Movie("Avatar", 4)
+#print(movie.title)
+#print(movie.get_rating())
+#movie.set_rating(5)
+#print(movie.get_rating())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#income=int(input("Enter monthly income"))
+#remaining=income
+#expenses=[]
+#while True:
+ #   print("1.Add an expense")
+ #   print("2.View remaining budget")
+   # print("3.Exit")
+  #  choice=input("Choose")
+ #   if choice=="1":
+ #       name=input("Expense name")
+  #      cost=int(input("Expense cost"))
+   #     if cost >remaining:
+   #         print("Not enough budget")
+ #       else:
+ #           expenses.append(name)
+  #          expenses.append(cost)
+  #          remaining=remaining-cost
+ #           print("Expense added")
+ #   elif choice=="2":
+  #      if expenses==[]:
+  #          print("No expenses added yet")
+  #      else:
+  #          print("Expenses",expenses)
+    #    print("Remaining budget",remaining)
+ #   elif choice =="3":
+  #      break
+   
+   
+        
+
+
+
+
+    
+#class Movie:
+#    def __init__(self, title, rating):
+  #      self.title = title
+ #       self.__rating = rating
+ #   @property
+#    def rating(self):
+ #       return self.__rating
+ #   @rating.setter
+ #   def rating(self, rating):
+ #       if rating >= 1 and rating <= 5:
+   #         self.__rating = rating
+ #       else:
+#            print("bad")
+#movie=Movie("Avatar",4)
+#movie.rating=3
+#print(movie.title)
+#print(movie.rating)
+ 
+    
+    
+    
+    
+
+#def calculate_ticket(nationality,age):
+ #   if nationality==1:
+   #     price=250
+  #      currency="EGP"
+  #  elif nationality==2:
+  #      price=30 #
+    #    currency="USD"
+ #   else:
+  #      print("Invalid nationality")
+   #     return
+ #   if age <6:
+   #     discount =0
+#    elif age <=12:
+  #      discount=20
+ #   elif age <=19:
+  #      discount=15
+ #   else:
+#    discount=10
+  #  discount_amount=price*discount/100
+  #  final_price=price-discount_amount
+ #   print("Nationality",nationality)
+#    print("Age",age)
+ #   print("Discount",discount,"%")
+ #   print("Final Price",final_price,currency)
+#while True:
+ #   nationality=int(input("Enter nationality"))
+  #  if nationality ==-1:
+ #       break
+   # age=int(input("Enter age"))
+#calculate_ticket(nationality,age)
+
+
+
+
+
+
+#def employee(salary,years):
+   # if years >= 10:
+  #      salary+=salary *10/100
+  #  elif years >= 6:
+  #      salary+=salary *8/100
+  #  else:
+  #      salary+=salary *5/100
+   # print("Final salary",salary)
+#s=float(input("Enter salary"))
+#y=int(input("Enter years"))
+#employee(s,y)
+
+
+
+
+#import random
+#def game():
+  #  x =random.randint(1,10)
+  #  for i in range(5):
+    #    y =int(input("Enter number"))
+    #    if x ==y:
+    #        print("win")
+    #        break
+     #   else:
+    #        print("lose")
+    #        print("Game Over")
+#game()
+
+
+
+
+
+
+
+#class Animal:
+#    def __init__(self,name):
+ #       self.name=name
+ #   def make_sound(self):
+ #       print("Some generic sound")
+#class Dog(Animal):
+#    def make_sound(self):
+  #      print("Woof!")
+#class Cat(Animal):
+  #  def make_sound(self):
+   #     print("Meow!")
+#animal=Animal("Animal")
+#dog=Dog("Dog")
+#cat=Cat("Cat")
+#animal.make_sound()
+#dog.make_sound()
+#cat.make_sound()
+
+
+
+
+
+#class Car:
+ #   def __init__(self,brand,model,speed):
+   #     self.brand=brand
+   #     self.model=model
+#        self.speed=speed
+  #  def increase_speed(self, amount):
+ #       self.speed=self.speed+amount
+  #  def display_info(self):
+  #      print(self.brand)
+  #      print(self.model)
+#        print(self.speed)
+#car1=Car("Toyota","M5",100)
+#car2=Car("BMW","X5",120)
+#car1.increase_speed(20)
+#car2.increase_speed(30)
+#car1.display_info()
+#car2.display_info()
+
+
+
+
+
+#class Student:
+ #   def __init__(self,name,grade):
+   #     self.name=name
+  #      self.__grade=grade
+   # def get_grade(self):
+   #     print(self.__grade)
+  #  def set_grade(self,new_grade):
+   #     if 0 <self.__grade <=100:
+    #        self.__grade=new_grade
+#s=Student("Farouk",80)
+#s.get_grade()
+#s.set_grade(90)
+
+
+
+
+  
+  
+  
+  
+  
+#fruits=["apple","banana","cherry"]
+#fruits.append("grape")
+#print(fruits)
+  
+  
+#fruits=["apple","banana","cherry"]
+#fruits.remove("banana")
+#print(fruits)
+
+
+#numbers=[5,2,8,1,9]
+#numbers.sort()
+#print(numbers)  
+  
+  
+ 
+ 
+#student={"name":"Ali"
+#           "age":12,
+#           "grade":"A"}
+#print(student["age"])
+#student["grade"]="A+"
+#student["school"]="Greenwood Academy"
+#print(student)
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
